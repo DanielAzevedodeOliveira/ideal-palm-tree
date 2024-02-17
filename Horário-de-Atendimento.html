@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="Página-Principal.html" target="_self">Página Principal</a></li>
+                <li><a href="Sobre-a-Clínica.html" target="_self">Sobre a Clínica</a></li>
+                <li><a href="Horário-de-Atendimento.html" target="_self">Horário de Atendimento</a></li>
+                <li><a href="Contato.html" target="_self">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="https://www.idfy.com/wp-content/uploads/2021/05/Healthcare-BGV-scaled.jpg" style="width: 1000px;height: 500px;" />
+            </div>
+    
+            <div class="content">
+                <h1><u>Horário de Atendimento</u></h1>
+                <p>Confira abaixo os horários de atendimento e os serviços disponíveis em nossa clínica:</p>
+                <style>
+                    table {
+                        -webkit-box-shadow: 12px 14px 6px 5px rgba(0,0,0,0.24); 
+                        box-shadow: 12px 14px 6px 5px rgba(0,0,0,0.24);
+                        border: solid 1px gray
+
+                    }
+                    table thead th {
+                         background-color: black;
+                         color: white;
+                    }
+                    table tbody tr:nth-child(even) td {
+                        background-color: #f1f1f1;
+                    } 
+                    table tbody tr:hover td {
+                        background-color: #E9f9f9;
+                        cursor: pointer;
+                    }
+                </style>
+                <table  width="250" align="center" cellspacing="0" cellpadding="5">
+                <thead>
+                <tr>
+                    <th>Serviços</th>
+                    <th>Segunda a Sexta</th>
+                    <th>Sábados</th>
+                    <th>Feriados</th>
+                </tr>
+            </thead>
+                <tbody>
+                <tr>
+                    <td>Clínica geral</td>
+                    <td>08h - 19h</td>
+                    <td>08h - 14h</td>
+                    <td>08h - 14h</td>
+                </tr>
+                <tr>
+                    <td>Psicologia</td>
+                    <td>09h - 19h</td>
+                    <td>09h - 14h</td>
+                    <td>09h - 14h</td>
+                </tr>
+                <tr>
+                    <td>Pediatria</td>
+                    <td>11h - 10h</td>
+                    <td>08h - 18h</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Oftalmologia</td>
+                    <td>08h - 19h</td>
+                    <td>08h - 18h</td>
+                    <td>-</td>
+                </tr>
+            </tbody>
+                </table>
+            </div>
+    
+            <div class="footer">
+                <p>Clínica Médica - Todos os direitos reservados.</p>
+                <p>Endereço:R. Curitiba, 307-213 - Centro - Telefone: (31) 8964-2895</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
